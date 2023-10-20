@@ -6,27 +6,28 @@ class Banner extends Component {
   render() {
     const images = [
       {
-        url: "./food1.jpeg",
+        url: "./herb1.png",
         caption1: "",
-        caption2: "A Journey of Excellence",
+        caption2: "OPTIMAL HEALTH",
         caption3:
-          "A testament to a journey fueled by passion, creativity, and a deep love for providing unforgettable experiences.",
+          "We are dedicated to providing you with the highest quality natural products and services",
+        action: { title: "Get Started", url: "contact" },
+      },
+      {
+        url: "./herb1.png",
+        caption1: "",
+        caption2: "MEDICAL SOLUTION ",
+        caption3:
+          "Our experience in integrative and alternative medicine is aimed at bringing relief to patients effectively.",
         action: { title: "Join Us", url: "signup" },
       },
       {
-        url: "./food2.jpeg",
-        caption1: "More than just a restaurant and bar",
-        caption2: "Ready for a delicious meal?",
-        caption3: " Discover the finest cuisine in town, waiting just for you!",
-        action: { title: "Order Now", url: "contactus" },
-      },
-      {
-        url: "./food4.jpeg",
-        caption1: "Invest",
-        caption2: "Join the Cadence Family",
+        url: "./mash.png",
+        caption1: "",
+        caption2: "GET FIT & LOOK GOOD",
         caption3:
-          "Investing in Cadence means joining a thriving business and becoming part of the Cadence family",
-        action: { title: "Invest With Us", url: "invest" },
+          "A session in our far Energy room and bucket will rejuvenate your skin and enhance your body's metabolism",
+        action: { title: "Order Now", url: "contactus" },
       },
     ];
     return (
@@ -37,9 +38,11 @@ class Banner extends Component {
               <div className="each-slide-child">
                 <div className="Slidetop">{slideImage.caption1}</div>
                 <div className="Slidetitle">{slideImage.caption2}</div>
+                <br></br>
+                <br></br>
                 <div className="Slidedetails">{slideImage.caption3}</div>
                 <a href={slideImage.action.url}>
-                  <button className="btn btn-warning   py-2  d-flex">
+                  <button className="btn btn-success   py-2  d-flex">
                     {slideImage.action.title}
                   </button>
                 </a>

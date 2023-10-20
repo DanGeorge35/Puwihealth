@@ -8,7 +8,7 @@ class Navs extends Component {
       <div className="">
         <nav
           className="navbar navbar-expand-lg  border-2 border-warning fixed-top p-1"
-          style={{ backgroundColor: "#000000b0" }}
+          style={{ backgroundColor: "#ffff" }}
         >
           <div className="container" style={{ height: "73px", width: "100vw" }}>
             <a
@@ -16,7 +16,11 @@ class Navs extends Component {
               href="#"
               style={{ outline: "none" }}
             >
-              <img src="logo.png" alt="Cadence" style={{ height: "70px" }} />
+              <img
+                src="logogreen.png"
+                alt="PuwiHealth"
+                style={{ height: "55px" }}
+              />
             </a>
 
             <div
@@ -83,11 +87,11 @@ class Navs extends Component {
               </ul>
             </div>
             <button
-              className="btn btn-outline-warning   py-2  d-flex  d-md-none d-none  d-lg-block"
+              className="btn btn-outline-success   py-2 px-5  d-flex  d-md-none d-none  d-lg-block"
               style={{ minWidth: "150px" }}
               onClick={this.props.toggleSideMenu}
             >
-              Sign In / Sign up
+              Make Appointment
             </button>
 
             <span

@@ -1,0 +1,134 @@
+      <br></br>
+                <br></br>
+                <br></br> MD/CEO
+ 
+import Services from "../components/services";
+ 
+font-family: Tahoma, sans-serif;
+ 
+word-spacing: 20px
+ 
+rgba(74, 78, 74, 0.797);
+ 
+outline
+ 
+pt-5
+ 
+font-al
+ 
+text-align: right;
+ 
+fluid
+ 
+fontFamily: "Nanum Myeongjo",
+ 
+</div>
+ 
+     <br></br>
+ 
+padding-bottom: 100px;
+ 
+pt-5
+ 
+061117a4
+ 
+container-fluid
+ 
+<br></br>
+ 
+
+        <br></br>
+ 
+ <br></br>
+
+        <br></br>
+ 
+ <br></br>
+
+        <br></br>
+ 
+<img src="title-shape.png" style={{ height: "16px" }} />
+ 
+fontFam2
+ 
+Crafted Cocktail
+ 
+pb-4 
+ 
+ pb-5
+ 
+   <div
+                  className="col-lg-6  pe-3 px-3 pb-4 "
+                  style={{ fontSize: "20px" }}
+                >
+                  <InfoCard
+                    img="ext1.jpg"
+                    title="Ambience"
+                    content="Immerse yourself in an atmosphere that seamlessly
+                  blends contemporary style with warmth. Our interiors are
+                  designed to create the perfect backdrop for your moments of
+                  joy and celebration."
+                  />
+                </div>
+ 
+import SiteSlide from "../components/siteSlide";
+ 
+ <div className="aboutContent">
+             
+            </div>
+ 
+ <div>
+                <SiteSlide />
+              </div>
+ 
+ <div>
+              <p style={{ paddingTop: "50px" }}></p>
+            </div>
+ 
+<div
+                className="text-warning"
+                style={{
+                  fontSize: "30px",
+                  fontWeight: "700",
+                }}
+              >
+                What Awaits You
+              </div>
+ 
+<label
+                className="aboutContent text-light"
+                style={{ textAlign: "center" }}
+              >
+                As we prepare to unveil the new Cadence in October, we invite
+                you to be part of this exciting chapter. What can you expect
+                when you step through our doors?
+              </label>
+ 
+success
+ 
+success
+ 
+outline
+ 
+outline
+ 
+background-color: 
+ 
+000000b0
+ 
+border: 2px solid
+ 
+outline
+ 
+Sign In / Sign up
+ 
+btn
+ 
+Healthcare
+ 
+Health
+ 
+font-family: "Cormorant Garamond", serif;
+ 
+More than just a restaurant and bar
+ 

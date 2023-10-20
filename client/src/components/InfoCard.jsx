@@ -3,28 +3,26 @@ import PropTypes from "prop-types";
 
 class InfoCard extends Component {
   render() {
-    const { title, content } = this.props;
+    const { title, img, content } = this.props;
     return (
       <div
         className="text-center shadow  "
         style={{
           padding: "30px",
-          backgroundColor: "#d8d8d8",
-
+          backgroundColor: "#fff",
+          borderRadius: "40px",
           height: "100%",
         }}
       >
-        <b
-          className=" fontFam2 "
-          style={{ color: "#b88a74", fontSize: "25px" }}
-        >
+        <img src={img} style={{ height: "80px" }} />
+
+        <br></br>
+        <b className="  " style={{ color: "#00af55", fontSize: "20px" }}>
           {title}
         </b>
         <br></br>
-        <img src="title-shape.png" style={{ height: "16px" }} />
         <br></br>
-        <br></br>
-        <div className="fontFam3">{content}</div>
+        <div className="fontFam2">{content}</div>
         <br></br>
       </div>
     );

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&family=Libre+Baskerville:wght@300;400;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,700;1,700&family=Dancing+Script:wght@400;700&family=Nanum+Myeongjo:wght@400;700;800&display=swap");
+
 /* 
 font-family: "Cormorant Garamond", serif;
 font-family: "Dancing Script", cursive;
@@ -30,9 +31,9 @@ h5{font-family: 'Raleway', sans-serif;font-size: 18px;font-weight: 500;
 }
 
 .nav-link {
-  color: white;
-  font-weight: 400;
-  font-size: large;
+  color: #9a9a9a;
+  font-weight: 700;
+  font-size: 17px;
   font-family: "Quicksand";
   padding: 10px 15px !important;
 }
@@ -42,9 +43,9 @@ h5{font-family: 'Raleway', sans-serif;font-size: 18px;font-weight: 500;
 .nav-link.active,
 .nav-link:hover,
 .nav-link:focus {
-  color: #ed9c40 !important;
+  color: #04c815 !important;
   font-weight: 700;
-  font-size: large;
+  font-size: 17px;
 }
 
 .navbar-nav .nav-link.show {
@@ -101,7 +102,7 @@ h5{font-family: 'Raleway', sans-serif;font-size: 18px;font-weight: 500;
   background-color: #fffefeed;
   height: 100%;
   width: 50%;
-  background-image: url("../public/plate1.png");
+  /* background-image: url("../public/plate1.png"); */
 }
 .SideContent > div {
   background-color: #e1fdfff6;
@@ -153,7 +154,7 @@ h5{font-family: 'Raleway', sans-serif;font-size: 18px;font-weight: 500;
   border-radius: 100px 0px 0px 100px;
 }
 .each-slide-child {
-  background-color: #00000076;
+  background-color: #00000023;
   padding-top: 150px;
   height: 100%;
 }
@@ -169,16 +170,39 @@ h5{font-family: 'Raleway', sans-serif;font-size: 18px;font-weight: 500;
 .each-slide-child .Slidetitle {
   display: block;
   width: 100%;
-  font-family: "Cormorant Garamond", serif;
+
   font-size: 50px;
-  color: white;
+  color: #38ae42;
   font-weight: 700;
   padding: 0px 15px;
+}
+
+.btn-success {
+  border: 2px solid #14e825;
+  background-color: #04c815;
+}
+
+.btn-outline-success {
+  border: 2px solid #14e825;
+  color: #14e825;
+  font-weight: 400;
+  padding: 10px 30px;
+}
+
+.btn-outline-success:hover {
+  border: 2px solid #14e825;
+  background-color: #04c815;
+  color: white;
+}
+
+.btn-success:hover {
+  border: 2px solid #64f170;
+  background-color: #00740a;
 }
 .each-slide-child .Slidedetails {
   display: block;
   width: 100%;
-  color: #fbca0e;
+  color: #000;
   padding: 0px 15px;
   font-family: "Nanum Myeongjo", serif;
   font-weight: 700;
@@ -194,8 +218,9 @@ h5{font-family: 'Raleway', sans-serif;font-size: 18px;font-weight: 500;
 
 .aboutContent {
   color: rgb(152, 152, 152);
-  font-size: 19px;
+  font-size: 24px;
   padding-top: 30px;
+  text-align: justify;
 }
 
 .each-slide2 > div {
@@ -265,7 +290,7 @@ h5{font-family: 'Raleway', sans-serif;font-size: 18px;font-weight: 500;
 }
 
 .about-page {
-  background-image: url("../public/food3.jpeg");
+  /* background-image: url("../public/food3.jpeg"); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
@@ -301,7 +326,7 @@ h5{font-family: 'Raleway', sans-serif;font-size: 18px;font-weight: 500;
   }
   .each-slide > div {
     background-size: cover;
-    height: 70vh;
+    height: 75vh;
   }
 
   .each-slide-child .Slidetop {
@@ -317,7 +342,6 @@ h5{font-family: 'Raleway', sans-serif;font-size: 18px;font-weight: 500;
   }
   .aboutContent {
     width: 100%;
-    text-align: justify;
   }
   .pane {
     width: 100%;
@@ -353,7 +377,7 @@ h5{font-family: 'Raleway', sans-serif;font-size: 18px;font-weight: 500;
   }
   .each-slide > div {
     background-size: cover;
-    height: 70vh;
+    height: 76vh;
   }
 
   .each-slide-child .Slidetop {
@@ -363,15 +387,14 @@ h5{font-family: 'Raleway', sans-serif;font-size: 18px;font-weight: 500;
   }
 
   .each-slide-child .Slidetitle {
-    font-size: 55px;
+    font-size: 60px;
     line-height: 65px;
   }
   .each-slide-child .Slidedetails {
     font-size: 20px;
   }
   .aboutContent {
-    text-align: justify;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
   }
   .footer .container-fluid {
@@ -402,14 +425,14 @@ h5{font-family: 'Raleway', sans-serif;font-size: 18px;font-weight: 500;
   }
 
   .each-slide-child .Slidetitle {
-    font-size: 50px;
+    font-size: 65px;
   }
   .each-slide-child .Slidedetails {
     font-size: 20px;
   }
 
   .aboutContent {
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
   }
 
@@ -446,12 +469,12 @@ h5{font-family: 'Raleway', sans-serif;font-size: 18px;font-weight: 500;
     margin-left: 100px;
   }
   .aboutContent {
-    width: 50%;
+    width: 75%;
     margin: 0 auto;
   }
 
   .pane {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
   }
 }
@@ -465,27 +488,27 @@ a {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right bottom;
+  background-color: #001119; /*#001119; */
 }
 .aboutInfo {
   min-height: 50vh;
-  text-align: center;
-  background-color: #001119f9; /*#001119; */
-  padding-bottom: 100px;
+  text-align: left;
+  background-color: #001119; /*#001119; */
 }
 
 .ext3 .aboutContent {
   font-family: "Cormorant Garamond", serif;
-  font-size: 22px;
+  font-size: 24px;
 }
 
 .ext2 {
-  background-image: url("../public/ext1.jpg") !important;
+  /* background-image: url("../public/ext1.jpg") !important; */
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
 }
 .location {
-  background-color: #061117a4 !important; /*#001119; */
+  background-color: #171717 !important; /*#001119; */
 }
 
 .gallery {
