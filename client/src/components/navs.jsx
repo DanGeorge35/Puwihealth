@@ -83,7 +83,7 @@ class Navs extends Component {
             </div>
             <a
               href="/contact"
-              className="btn btn-outline-success   py-2 px-5  d-flex  d-md-none d-none  d-lg-block"
+              className="btn btn-outline-success   py-2 px-3  d-flex  d-md-none d-none  d-lg-block"
               style={{ minWidth: "150px" }}
             >
               Make Appointment

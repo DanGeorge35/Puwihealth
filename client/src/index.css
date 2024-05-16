@@ -33,7 +33,7 @@ h5{font-family: 'Raleway', sans-serif;font-size: 18px;font-weight: 500;
 .nav-link {
   color: #9a9a9a;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 14px;
   font-family: "Quicksand";
   padding: 10px 15px !important;
 }
@@ -45,7 +45,7 @@ h5{font-family: 'Raleway', sans-serif;font-size: 18px;font-weight: 500;
 .nav-link:focus {
   color: #04c815 !important;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 14px;
 }
 
 .navbar-nav .nav-link.show {
