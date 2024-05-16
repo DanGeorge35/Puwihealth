@@ -7,87 +7,73 @@ class Footer extends Component {
       <div className="footer ">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-lg-2 col-4  " style={{ minHeight: "100px" }}>
-              <label className="footerHead ">MENU</label>
-              <a className="footerLink ">HOME</a>
-              <a className="footerLink ">REGULAR MENU</a>
-              <a className="footerLink ">BOOK AN EVENT</a>
-              <a className="footerLink ">GALLERY</a>
-              <a className="footerLink ">ABOUT</a>
-            </div>
-            <div className="col-lg-2 col-4 " style={{ minHeight: "100px" }}>
-              <label className="footerHead">LINK</label>
-              <a className="footerLink ">HOME</a>
-              <a className="footerLink ">REGULAR MENU</a>
-              <a className="footerLink ">BOOK AN EVENT</a>
-              <a className="footerLink ">GALLERY</a>
-              <a className="footerLink ">ABOUT</a>
-            </div>
-            <div className="col-lg-2 col-4 " style={{ minHeight: "100px" }}>
-              <label className="footerHead">CONTACT</label>
-              <a className="footerLink">HOME</a>
-              <a className="footerLink">REGULAR MENU</a>
-              <a className="footerLink">BOOK AN EVENT</a>
-              <p style={{ paddingTop: "10px" }}></p>
-              <label className="footerHead">FOLLOW US ON</label>
-              <a
-                className="footerIcon"
-                href=" https://www.instagram.com/cadence_lounge/"
-              >
-                <InstagramIcon />
-              </a>
-              <a className="footerIcon" href="https://t.me/+d2INnzyuB1A4ZWZk">
-                <TelegramIcon />
-              </a>
-              <a
-                className="footerIcon"
-                href="https://medium.com/@thecadencecafe"
-              >
-                <span className="mediumIcon">M</span>
-              </a>
-            </div>
-            <div className="col-lg-6 " style={{ minHeight: "100px" }}>
-              <div
-                className=""
-                style={{
-                  display: "inline-block",
-                  textAlign: "center",
-                }}
-              >
-                <img src="logo.png" style={{ height: "70px" }} />
+            <div className="col-lg-3 " style={{ minHeight: "100px" }}>
+              <div className="">
+                <img src="logowhite.png" style={{ height: "110px" }} />
                 <label
-                  className="cHeader fontFam3"
+                  className=" fontFam3"
                   style={{
                     fontWeight: "600",
                     marginBottom: "30px",
-                    color: "#968145",
+                    color: "#fff",
+                    fontSize: "18px",
                   }}
                 >
-                  More Than Just a Restaurant and Bar
+                  To promote and administer natural, beneficial remedies that
+                  contribute to the overall wellness of our patients.
                 </label>
               </div>
-              <div className="pb-3">
-                <label className="cHeader fontFam2" style={{ color: "#999" }}>
-                  Monday -Thursday
-                </label>
-                <label className="cHeader">@ 8am - 8pm</label>
+            </div>
+            <div className="col-lg-3 col-12 " style={{ minHeight: "100px" }}>
+              <label className="footerHead">Emergency Cases</label>
+              <div>
+                +234-7037770063
+                <br></br>
+                <br></br>
+                Contact us today to schedule an appointment and take the first
+                step towards a healthier, and happier life.
               </div>
-              <div className="pb-3">
-                <label className="cHeader fontFam2" style={{ color: "#999" }}>
-                  Friday - Saturday
-                </label>
-                <label className="cHeader">@ 8am - 8pm</label>
+            </div>
+            <div className="col-lg-3 col-12 " style={{ minHeight: "100px" }}>
+              <label className="footerHead">Working Time</label>
+              <div>
+                Mon - Wed - 9:00 AM - 7:00 PM <br></br>
+                Thursday - 9:00 AM - 6:30 PM
+                <br></br>
+                Friday - 9:00 AM - 6:00 PM
+                <br></br>
+                Sat - Sun - Closed
+                <br></br>
+                <br></br>
+                E: hello@puwihealth.com
+                <br></br>
+                P: +234-7037770063
               </div>
-              <div className="pb-3">
-                <label className="cHeader fontFam2" style={{ color: "#999" }}>
-                  Sunday
-                </label>
-                <label className="cHeader">@ 9am to 5pm</label>
+            </div>
+
+            <div className="col-lg-3 col-12 " style={{ minHeight: "100px" }}>
+              <label className="footerHead">Our Location</label>
+              <div>
+                No 2 Diorben Street, Adjacent Agric Quarters Wuse Zone 4, Abuja.
+                <br></br>
+                <br></br>
+                E: hello@puwihealth.com
+                <br></br>
+                P: +234-7037770063
+                <p style={{ paddingTop: "10px" }}></p>
+                <a className="footerIcon" href="">
+                  <InstagramIcon />
+                </a>
+                <a className="footerIcon" href="">
+                  <TelegramIcon />
+                </a>
               </div>
             </div>
           </div>
         </div>
-        <div className="bottomFooter">© 2023 CADENCE+ Sweet Experiences</div>
+        <div className="bottomFooter">
+          © 2023 PuwiHealth. All Rights Reserved
+        </div>
       </div>
     );
   }

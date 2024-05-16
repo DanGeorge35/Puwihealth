@@ -4,9 +4,9 @@ import Home from "./pages/home";
 import Contact from "./pages/contact";
 import NoPage from "./pages/404";
 import About from "./pages/about";
-import Reservation from "./pages/reservation";
-import Investment from "./pages/invest";
-import Blog from "./pages/blog";
+import ServicesProduct from "./pages/servicesproducts";
+import EnergyRoom from "./pages/energyroom";
+import Faq from "./pages/faq";
 
 class App extends Component {
   render() {
@@ -18,9 +18,9 @@ class App extends Component {
             <Route path="/home" element={<Home />} />
             <Route path="/About" element={<About />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/reservation" element={<Reservation />} />
-            <Route path="/invest" element={<Investment />} />
-            <Route path="/blog" element={<Blog />} />
+            <Route path="/servicesproduct" element={<ServicesProduct />} />
+            <Route path="/energyroom" element={<EnergyRoom />} />
+            <Route path="/Faq" element={<Faq />} />
             <Route path="*" element={<NoPage />} />
           </Routes>
         </Router>

@@ -1,26 +1,37 @@
 import React, { Component } from "react";
 
-class Services extends Component {
+class Whychoose extends Component {
   render() {
     return (
-      <div className="services" style={{ backgroundColor: "antiquewhite" }}>
-        <div className="pt-5 pb-5 servicesInfo pe-3 px-3 container">
+      <div className="services " style={{ borderTop: "15px solid #000" }}>
+        <div className="pt-5 servicesInfo pe-3 px-3 container">
           <div className="text-center pt-5"></div>
-          <div className="row pb-5">
-            <div className="col-lg-6 pt-4">
-              <div className="servicesContent" style={{ fontSize: "18px" }}>
-                <b className="fontFam1" style={{ color: "#d55680" }}>
-                  SERVICES
-                </b>
+          <div className="row ">
+            <div className="col-lg-6 pt-4 pb-5">
+              <div
+                className="servicesContent pb-4"
+                style={{ fontSize: "18px" }}
+              >
+                <b className="text-black fontFam1">WHY CHOOSE PUWIHEALTH</b>
                 <div
                   className="pt-1 pb-2"
                   style={{
-                    fontSize: "30px",
+                    fontSize: "40px",
                     fontWeight: "700",
                     color: "#009933",
                   }}
                 >
-                  Our Innovative Approach to Treatment.
+                  High Quality Medical Care
+                </div>
+                <div
+                  className="pt-1 pb-2"
+                  style={{
+                    fontSize: "25px",
+                    fontWeight: "700",
+                    color: "#d55680",
+                  }}
+                >
+                  +234-7037770063
                 </div>
                 <br></br>
                 We are dedicated to providing you with the highest quality
@@ -48,7 +59,8 @@ class Services extends Component {
               <div
                 className="bgimg"
                 style={{
-                  backgroundImage: "url(herb.png)",
+                  backgroundPosition: "top",
+                  backgroundImage: "url(nurse.jpeg)",
                   height: "100%",
                   width: "100%",
                 }}
@@ -61,4 +73,4 @@ class Services extends Component {
   }
 }
 
-export default Services;
+export default Whychoose;

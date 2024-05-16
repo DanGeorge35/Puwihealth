@@ -45,6 +45,24 @@ class SideMenu extends Component {
 
               <li className="nav-item">
                 <NavLink
+                  to="/servicesproduct"
+                  className="nav-link  "
+                  aria-current="page"
+                >
+                  Services & Product
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink
+                  to="/energyroom"
+                  className="nav-link  "
+                  aria-current="page"
+                >
+                  Energy Room
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink
                   to="/contact"
                   className="nav-link  "
                   aria-current="page"
@@ -53,41 +71,11 @@ class SideMenu extends Component {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink
-                  to="/reservation"
-                  className="nav-link  "
-                  aria-current="page"
-                >
-                  Reservation
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink to="/blog" className="nav-link  " aria-current="page">
-                  Blog
-                </NavLink>
-              </li>
-
-              <li className="nav-item">
-                <NavLink
-                  to="/invest"
-                  className="nav-link  "
-                  aria-current="page"
-                >
-                  Invest
+                <NavLink to="/faq" className="nav-link  " aria-current="page">
+                  Faq
                 </NavLink>
               </li>
             </ul>
-            <button
-              className="btn btn-warning  text-center mt-4 p-3  d-flex "
-              style={{ width: "100%" }}
-            >
-              Sign In / Sign up
-              <span style={{ position: "absolute", right: "55px" }}>
-                <span className="material-symbols-outlined animate__animated animate__infinite animate__slideInRight">
-                  chevron_right
-                </span>
-              </span>
-            </button>
           </div>
         </div>
       </div>

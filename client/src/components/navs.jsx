@@ -8,7 +8,7 @@ class Navs extends Component {
       <div className="">
         <nav
           className="navbar navbar-expand-lg  border-2 border-warning fixed-top p-1"
-          style={{ backgroundColor: "#ffff" }}
+          style={{ backgroundColor: "#ffff", boxShadow: "0px 0px 5px #999" }}
         >
           <div className="container" style={{ height: "73px", width: "100vw" }}>
             <a
@@ -49,6 +49,24 @@ class Navs extends Component {
 
                 <li className="nav-item">
                   <NavLink
+                    to="/servicesproduct"
+                    className="nav-link  "
+                    aria-current="page"
+                  >
+                    Services and Products
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink
+                    to="/energyroom"
+                    className="nav-link  "
+                    aria-current="page"
+                  >
+                    Energy Room
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink
                     to="/contact"
                     className="nav-link  "
                     aria-current="page"
@@ -57,48 +75,25 @@ class Navs extends Component {
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink
-                    to="/reservation"
-                    className="nav-link  "
-                    aria-current="page"
-                  >
-                    Reservation
-                  </NavLink>
-                </li>
-                <li className="nav-item">
-                  <NavLink
-                    to="/blog"
-                    className="nav-link  "
-                    aria-current="page"
-                  >
-                    Blog
-                  </NavLink>
-                </li>
-
-                <li className="nav-item">
-                  <NavLink
-                    to="/invest"
-                    className="nav-link  "
-                    aria-current="page"
-                  >
-                    Invest
+                  <NavLink to="/faq" className="nav-link  " aria-current="page">
+                    Faq
                   </NavLink>
                 </li>
               </ul>
             </div>
-            <button
+            <a
+              href="/contact"
               className="btn btn-outline-success   py-2 px-5  d-flex  d-md-none d-none  d-lg-block"
               style={{ minWidth: "150px" }}
-              onClick={this.props.toggleSideMenu}
             >
               Make Appointment
-            </button>
+            </a>
 
             <span
-              className="navbar-toggler   d-block d-lg-none "
+              className="navbar-toggler   d-block d-lg-none border-0 "
               onClick={this.props.toggleSideMenu}
             >
-              <span className="material-symbols-outlined ">lunch_dining</span>
+              <span className="material-symbols-outlined ">menu</span>
             </span>
           </div>
         </nav>

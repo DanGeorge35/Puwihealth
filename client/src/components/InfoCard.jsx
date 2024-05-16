@@ -17,7 +17,7 @@ class InfoCard extends Component {
         <img src={img} style={{ height: "80px" }} />
 
         <br></br>
-        <b className="  " style={{ color: "#00af55", fontSize: "20px" }}>
+        <b className="  " style={{ color: "#d55680", fontSize: "20px" }}>
           {title}
         </b>
         <br></br>

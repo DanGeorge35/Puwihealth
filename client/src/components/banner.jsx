@@ -11,7 +11,7 @@ class Banner extends Component {
         caption2: "OPTIMAL HEALTH",
         caption3:
           "We are dedicated to providing you with the highest quality natural products and services",
-        action: { title: "Get Started", url: "contact" },
+        action: { title: "Make Appointment", url: "contact" },
       },
       {
         url: "./herb1.png",
@@ -19,7 +19,7 @@ class Banner extends Component {
         caption2: "MEDICAL SOLUTION ",
         caption3:
           "Our experience in integrative and alternative medicine is aimed at bringing relief to patients effectively.",
-        action: { title: "Join Us", url: "signup" },
+        action: { title: "Order Now", url: "products" },
       },
       {
         url: "./mash.png",
@@ -27,7 +27,7 @@ class Banner extends Component {
         caption2: "GET FIT & LOOK GOOD",
         caption3:
           "A session in our far Energy room and bucket will rejuvenate your skin and enhance your body's metabolism",
-        action: { title: "Order Now", url: "contactus" },
+        action: { title: "Get Started", url: "contact" },
       },
     ];
     return (

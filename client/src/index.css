@@ -49,10 +49,10 @@ h5{font-family: 'Raleway', sans-serif;font-size: 18px;font-weight: 500;
 }
 
 .navbar-nav .nav-link.show {
-  color: #ed9c40 !important;
+  color: #0ca819 !important;
 }
 .navbar-toggler {
-  color: #fbca0e;
+  color: #0ca819;
 }
 .navbar-toggler span {
   font-size: 42px;
@@ -99,13 +99,15 @@ h5{font-family: 'Raleway', sans-serif;font-size: 18px;font-weight: 500;
   position: absolute;
   top: 0px;
   right: 0px;
-  background-color: #fffefeed;
   height: 100%;
   width: 50%;
-  /* background-image: url("../public/plate1.png"); */
+  background-image: url("../public/herb1.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .SideContent > div {
-  background-color: #e1fdfff6;
+  background-color: #ffffffc5;
   padding-left: 10px;
   padding-right: 25px;
   height: 100%;
@@ -231,33 +233,32 @@ h5{font-family: 'Raleway', sans-serif;font-size: 18px;font-weight: 500;
 
 /* FOOTER */
 .footer {
+  background-color: #0d1b12;
   border-top: 10px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .bottomFooter {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   border-top: 1px solid #4c3d01;
   padding: 15px 20px;
-  background-color: #01202ef9;
+  background-color: #5f182a;
   text-align: center;
   color: white;
 }
 
 .footer .container-fluid {
-  background-color: #003c55f9;
-  padding-left: 150px;
+  padding-left: 50px;
 }
-.footer .col-lg-6 {
+.footer .col-lg-4 {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: #003a51f9;
-  padding-right: 100px;
-  padding-left: 100px;
 }
 
-.footer .col-lg-2 {
-  padding-top: 100px;
-  padding-bottom: 100px;
+.footer .col-lg-3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: #cecaca;
   font-size: 14px;
 }
@@ -266,7 +267,7 @@ h5{font-family: 'Raleway', sans-serif;font-size: 18px;font-weight: 500;
   display: block;
   padding: 5px;
   margin-bottom: 20px;
-  color: #968145;
+  color: #d55680;
   font-weight: 700;
   font-size: 15px;
 }
@@ -290,7 +291,7 @@ h5{font-family: 'Raleway', sans-serif;font-size: 18px;font-weight: 500;
 }
 
 .about-page {
-  /* background-image: url("../public/food3.jpeg"); */
+  background-image: url("../public/mash.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
@@ -488,12 +489,12 @@ a {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right bottom;
-  background-color: #001119; /*#001119; */
+  background-color: #fff; /*#001119; */
 }
 .aboutInfo {
   min-height: 50vh;
   text-align: left;
-  background-color: #001119; /*#001119; */
+  background-color: #fff; /*#001119; */
 }
 
 .ext3 .aboutContent {
@@ -523,13 +524,4 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  transition: transform 0.2s ease-in-out;
-  border-radius: 10px;
-}
-
-.bgimg:hover {
-  transform: scale(0.96);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-  border: 3px solid #fbca0e;
-  border-radius: 10px;
 }
