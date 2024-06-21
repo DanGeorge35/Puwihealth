@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
+import { NavLink } from "react-router-dom";
 
 class Banner extends Component {
   render() {
@@ -40,12 +41,19 @@ class Banner extends Component {
                 <div className="Slidetitle">{slideImage.caption2}</div>
                 <br></br>
                 <br></br>
-                <div className="Slidedetails">{slideImage.caption3}</div>
-                <a href={slideImage.action.url}>
-                  <button className="btn btn-success   py-2  d-flex">
+                <div className="Slidedetails">
+                  {slideImage.caption3}
+                  <br></br>
+                  <br></br>
+                  <NavLink
+                    to={`/${slideImage.action.url}`}
+                    className="btn btn-success   py-3 px-4 pr-4 "
+                    aria-current="page"
+                    style={{ display: "inline !important" }}
+                  >
                     {slideImage.action.title}
-                  </button>
-                </a>
+                  </NavLink>
+                </div>
               </div>
             </div>
           </div>
