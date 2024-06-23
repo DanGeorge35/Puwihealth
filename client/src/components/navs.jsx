@@ -17,7 +17,7 @@ class Navs extends Component {
               style={{ outline: "none" }}
             >
               <img
-                src="logogreen.png"
+                src="/logogreen.png"
                 alt="PuwiHealth"
                 style={{ height: "55px" }}
               />
@@ -49,20 +49,11 @@ class Navs extends Component {
 
                 <li className="nav-item">
                   <NavLink
-                    to="/servicesproduct"
+                    to="/services"
                     className="nav-link  "
                     aria-current="page"
                   >
-                    Services and Products
-                  </NavLink>
-                </li>
-                <li className="nav-item">
-                  <NavLink
-                    to="/energyroom"
-                    className="nav-link  "
-                    aria-current="page"
-                  >
-                    Energy Room
+                    Our Services
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -74,10 +65,17 @@ class Navs extends Component {
                     Contact Us
                   </NavLink>
                 </li>
+
                 <li className="nav-item">
-                  <NavLink to="/faq" className="nav-link  " aria-current="page">
-                    Faq
-                  </NavLink>
+                  <a
+                    href="https://puwihealth.medium.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="nav-link  "
+                    aria-current="page"
+                  >
+                    Blog
+                  </a>
                 </li>
               </ul>
             </div>

@@ -30,6 +30,9 @@ h5{font-family: 'Raleway', sans-serif;font-size: 18px;font-weight: 500;
   font-family: "Libre Baskerville", sans-serif;
 }
 
+.over_text_change:hover {
+  color: #04c815 !important;
+}
 .nav-link {
   color: #9a9a9a;
   font-weight: 700;
@@ -172,7 +175,6 @@ h5{font-family: 'Raleway', sans-serif;font-size: 18px;font-weight: 500;
 .each-slide-child .Slidetitle {
   display: block;
   width: 100%;
-
   font-size: 50px;
   color: #38ae42;
   font-weight: 700;
@@ -204,7 +206,8 @@ h5{font-family: 'Raleway', sans-serif;font-size: 18px;font-weight: 500;
 .each-slide-child .Slidedetails {
   display: block;
   width: 100%;
-  color: #000;
+  color: #fff;
+  font-weight: 900 !important;
   padding: 0px 15px;
   font-family: "Nanum Myeongjo", serif;
   font-weight: 700;
@@ -227,7 +230,7 @@ h5{font-family: 'Raleway', sans-serif;font-size: 18px;font-weight: 500;
 
 .each-slide2 > div {
   background-size: cover;
-  height: 50vh;
+  height: 70vh;
   border-radius: 20px;
 }
 
@@ -328,6 +331,7 @@ h5{font-family: 'Raleway', sans-serif;font-size: 18px;font-weight: 500;
   .each-slide > div {
     background-size: cover;
     height: 75vh;
+    background-position: right;
   }
 
   .each-slide-child .Slidetop {
@@ -337,9 +341,12 @@ h5{font-family: 'Raleway', sans-serif;font-size: 18px;font-weight: 500;
   .each-slide-child .Slidetitle {
     font-size: 45px;
     line-height: 55px;
+    color: #38ae42;
   }
   .each-slide-child .Slidedetails {
     font-size: 15px;
+    color: #fff;
+    font-weight: 900 !important;
   }
   .aboutContent {
     width: 100%;
@@ -379,6 +386,7 @@ h5{font-family: 'Raleway', sans-serif;font-size: 18px;font-weight: 500;
   .each-slide > div {
     background-size: cover;
     height: 76vh;
+    background-position: right;
   }
 
   .each-slide-child .Slidetop {
@@ -389,15 +397,19 @@ h5{font-family: 'Raleway', sans-serif;font-size: 18px;font-weight: 500;
 
   .each-slide-child .Slidetitle {
     font-size: 60px;
+    color: #38ae42;
     line-height: 65px;
   }
   .each-slide-child .Slidedetails {
     font-size: 20px;
+    color: #fff;
+    font-weight: 900 !important;
   }
   .aboutContent {
     width: 90%;
     margin: 0 auto;
   }
+
   .footer .container-fluid {
     padding-left: 10px;
   }
@@ -430,6 +442,8 @@ h5{font-family: 'Raleway', sans-serif;font-size: 18px;font-weight: 500;
   }
   .each-slide-child .Slidedetails {
     font-size: 20px;
+    color: #fff;
+    font-weight: 900 !important;
   }
 
   .aboutContent {
@@ -465,6 +479,8 @@ h5{font-family: 'Raleway', sans-serif;font-size: 18px;font-weight: 500;
     padding-left: 100px;
     font-size: 25px;
     width: 70%;
+    color: #fff;
+    font-weight: 900 !important;
   }
   .each-slide-child button {
     margin-left: 100px;

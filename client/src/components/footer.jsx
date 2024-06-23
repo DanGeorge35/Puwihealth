@@ -9,7 +9,7 @@ class Footer extends Component {
           <div className="row">
             <div className="col-lg-3 " style={{ minHeight: "100px" }}>
               <div className="">
-                <img src="logowhite.png" style={{ height: "110px" }} />
+                <img src="/logowhite.png" style={{ height: "110px" }} />
                 <label
                   className=" fontFam3"
                   style={{
@@ -27,7 +27,16 @@ class Footer extends Component {
             <div className="col-lg-3 col-12 " style={{ minHeight: "100px" }}>
               <label className="footerHead">Emergency Cases</label>
               <div>
-                +234-7037770063
+                <a
+                  href="https://wa.me/2348055261812"
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{
+                    color: "#009933",
+                  }}
+                >
+                  +234-8055261812
+                </a>
                 <br></br>
                 <br></br>
                 Contact us today to schedule an appointment and take the first
@@ -47,7 +56,17 @@ class Footer extends Component {
                 <br></br>
                 E: hello@puwihealth.com
                 <br></br>
-                P: +234-7037770063
+                P:{" "}
+                <a
+                  href="https://wa.me/2348055261812"
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{
+                    color: "#009933",
+                  }}
+                >
+                  +234-8055261812
+                </a>
               </div>
             </div>
 
@@ -59,7 +78,17 @@ class Footer extends Component {
                 <br></br>
                 E: hello@puwihealth.com
                 <br></br>
-                P: +234-7037770063
+                P:{" "}
+                <a
+                  href="https://wa.me/2348055261812"
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{
+                    color: "#009933",
+                  }}
+                >
+                  +234-8055261812
+                </a>
                 <p style={{ paddingTop: "10px" }}></p>
                 <a className="footerIcon" href="">
                   <InstagramIcon />
@@ -72,7 +101,7 @@ class Footer extends Component {
           </div>
         </div>
         <div className="bottomFooter">
-          © 2023 PuwiHealth. All Rights Reserved
+          © 2024 PuwiHealth. All Rights Reserved
         </div>
       </div>
     );

@@ -22,20 +22,22 @@ class About extends Component {
               </div>
             </div>
             <div className="row pb-5">
-              <div className="col-lg-8 pt-4">
+              <div className="col-lg-12 pt-4">
                 <div
                   className="aboutContent text-dark"
                   style={{ fontSize: "18px" }}
                 >
-                  <b style={{ fontSize: "20px" }}>P</b>uwi Health Wellness
-                  Center is a Naturopathic clinic located in Abuja. Naturopathy
-                  is a system of healing using diet and substances freely found
-                  in Nature. Examples of these substances are air, water,
-                  sunlight, herbs, clay, gemstones, etc. We offer holistic
-                  health services, we do not suppress symptoms but work to find
-                  out the root cause of the issue and remove it. We also work
-                  with the body and create a favourable environment for the body
-                  to heal itself.
+                  <b style={{ fontSize: "30px" }}>W</b>e are a Limited Liability
+                  company that deals with Integrative Medicine, Herbal Remedies,
+                  Homeopathy And Naturopathy. We carry on all or any of the
+                  businesses of manufacturers, buyers, sellers and distributors,
+                  agents, and dealers in all kinds of Patents, Pharmaceutical,
+                  Medicinal And Medicated Preparations, Perfumes, Creams,
+                  Unguents, Hair Dressings, Washes, Pomades, Dyes, Cosmetics
+                  Skin Preparations And Accessories, Soaps, Oil Deaginaus And
+                  Vaporaceous Substances, Beauty Specialists Preparation And
+                  Accessories of every description and of and in Proprietary And
+                  Industrial Preparations.
                   <br></br>
                   <br></br>
                   As an organization that aims to be at the forefront of
@@ -46,14 +48,14 @@ class About extends Component {
                   ensure that our services are top-notch and highly effective.
                   <br></br>
                   <br></br>
+                  <div className="">
+                    <img src="yobah.png" style={{ width: "250px" }} />
+                  </div>
+                  <b>DR. (MRS) F. J YOBAH fimc cmc</b>
+                  <br></br>
+                  <i>MD/CEO</i>
                 </div>
-              </div>
-              <div className=" col-lg-4 pt-4 text-center">
-                <img src="yobah.png" style={{ width: "250px" }} />
-                <br />
-                <b>DR. (MRS) F. J YOBAH fimc cmc</b>
                 <br></br>
-                <i>MD/CEO</i>
               </div>
             </div>
           </div>

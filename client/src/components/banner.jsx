@@ -35,8 +35,16 @@ class Banner extends Component {
       <Slide autoplay={true} arrows={false} indicators={true} infinite={true}>
         {images.map((slideImage, index) => (
           <div className="each-slide" key={index}>
-            <div style={{ backgroundImage: `url(${slideImage.url})` }}>
-              <div className="each-slide-child">
+            <div
+              style={{
+                backgroundImage: `url(${slideImage.url})`,
+                position: "relative",
+              }}
+            >
+              <div
+                className="each-slide-child"
+                style={{ backgroundColor: "rgb(33 29 29 / 70%)" }}
+              >
                 <div className="Slidetop">{slideImage.caption1}</div>
                 <div className="Slidetitle">{slideImage.caption2}</div>
                 <br></br>
@@ -47,9 +55,9 @@ class Banner extends Component {
                   <br></br>
                   <NavLink
                     to={`/${slideImage.action.url}`}
-                    className="btn btn-success   py-3 px-4 pr-4 "
+                    className="btn btn-success   py-2 px-4 pr-4 "
                     aria-current="page"
-                    style={{ display: "inline !important" }}
+                    style={{ display: "inline !important", minWidth: "200px" }}
                   >
                     {slideImage.action.title}
                   </NavLink>

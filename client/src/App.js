@@ -4,9 +4,7 @@ import Home from "./pages/home";
 import Contact from "./pages/contact";
 import NoPage from "./pages/404";
 import About from "./pages/about";
-import ServicesProduct from "./pages/servicesproducts";
-import EnergyRoom from "./pages/energyroom";
-import Faq from "./pages/faq";
+import Services from "./pages/services";
 
 class App extends Component {
   render() {
@@ -18,9 +16,8 @@ class App extends Component {
             <Route path="/home" element={<Home />} />
             <Route path="/About" element={<About />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/servicesproduct" element={<ServicesProduct />} />
-            <Route path="/energyroom" element={<EnergyRoom />} />
-            <Route path="/Faq" element={<Faq />} />
+            <Route path="/services" element={<Services />} />
+
             <Route path="*" element={<NoPage />} />
           </Routes>
         </Router>
