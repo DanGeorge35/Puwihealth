@@ -45,22 +45,14 @@ class SideMenu extends Component {
 
               <li className="nav-item">
                 <NavLink
-                  to="/products"
+                  to="/services"
                   className="nav-link  "
                   aria-current="page"
                 >
-                  Our Products
+                  Our Services
                 </NavLink>
               </li>
-              <li className="nav-item">
-                <NavLink
-                  to="/energyroom"
-                  className="nav-link  "
-                  aria-current="page"
-                >
-                  Energy Room
-                </NavLink>
-              </li>
+
               <li className="nav-item">
                 <NavLink
                   to="/contact"
@@ -71,9 +63,15 @@ class SideMenu extends Component {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/faq" className="nav-link  " aria-current="page">
-                  Faq
-                </NavLink>
+                <a
+                  href="https://puwihealth.medium.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="nav-link  "
+                  aria-current="page"
+                >
+                  Blog
+                </a>
               </li>
             </ul>
           </div>

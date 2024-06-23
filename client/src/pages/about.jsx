@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import AboutComp from "../components/about";
+import Vmcore from "../components/vmcore";
+import Map from "../components/map";
 
 class About extends Component {
   render() {
@@ -15,6 +17,8 @@ class About extends Component {
           </div>
         </div>
         <AboutComp />
+        <Vmcore />
+        <Map />
 
         <Footer />
       </div>

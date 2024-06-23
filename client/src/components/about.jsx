@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Vmcore from "./vmcore";
+
 class About extends Component {
   render() {
     return (
@@ -58,7 +58,6 @@ class About extends Component {
             </div>
           </div>
         </div>
-        <Vmcore />
       </div>
     );
   }

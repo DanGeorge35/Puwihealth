@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 
 class Banner extends Component {
   render() {
@@ -20,7 +20,7 @@ class Banner extends Component {
         caption2: "MEDICAL SOLUTION ",
         caption3:
           "Our experience in integrative and alternative medicine is aimed at bringing relief to patients effectively.",
-        action: { title: "Order Now", url: "products" },
+        action: { title: "Order Now", url: "services" },
       },
       {
         url: "./mash.png",
@@ -53,14 +53,16 @@ class Banner extends Component {
                   {slideImage.caption3}
                   <br></br>
                   <br></br>
-                  <NavLink
-                    to={`/${slideImage.action.url}`}
+                  <a
+                    href="https://wa.me/2348055261812"
+                    target="_blank"
+                    rel="noreferrer"
                     className="btn btn-success   py-2 px-4 pr-4 "
                     aria-current="page"
                     style={{ display: "inline !important", minWidth: "200px" }}
                   >
                     {slideImage.action.title}
-                  </NavLink>
+                  </a>
                 </div>
               </div>
             </div>

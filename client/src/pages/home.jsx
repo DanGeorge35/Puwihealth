@@ -6,6 +6,7 @@ import AboutComp from "../components/about";
 import Services from "../components/services";
 import Whychoose from "../components/whychoose";
 import Whymedicine from "../components/whymedicine";
+import Vmcore from "../components/vmcore";
 class Home extends Component {
   render() {
     return (
@@ -13,6 +14,7 @@ class Home extends Component {
         <Header />
         <Banner />
         <AboutComp />
+        <Vmcore />
 
         <Whymedicine />
 

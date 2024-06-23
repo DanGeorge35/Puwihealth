@@ -24,7 +24,7 @@ class ServicesItems extends Component {
   render() {
     return (
       <div className="services">
-        <div className="pt-5 pb-5 servicesInfo pe-3 px-3 container">
+        <div className="pt-2 pb-5 servicesInfo pe-3 px-3 container">
           <div className="text-center pt-5"></div>
           <div className="row pb-5">
             {servicesItems.map((service, index) => (

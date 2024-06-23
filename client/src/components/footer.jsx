@@ -46,12 +46,33 @@ class Footer extends Component {
             <div className="col-lg-3 col-12 " style={{ minHeight: "100px" }}>
               <label className="footerHead">Working Time</label>
               <div>
-                Mon - Wed - 9:00 AM - 7:00 PM <br></br>
-                Thursday - 9:00 AM - 6:30 PM
-                <br></br>
-                Friday - 9:00 AM - 6:00 PM
-                <br></br>
-                Sat - Sun - Closed
+                Mon - Fri
+                <b
+                  style={{
+                    color: "#009933",
+                  }}
+                >
+                  {" "}
+                  9:00 AM - 6:00 PM{" "}
+                </b>
+                <br /> <br />
+                Saturday{"      "}
+                <b
+                  style={{
+                    color: "#009933",
+                  }}
+                >
+                  10:00 AM - 6:00 PM
+                </b>
+                <br /> <br />
+                Sunday -{" "}
+                <b
+                  style={{
+                    color: "red",
+                  }}
+                >
+                  Closed
+                </b>
                 <br></br>
                 <br></br>
                 E: hello@puwihealth.com

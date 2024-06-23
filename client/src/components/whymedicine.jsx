@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Map from "./map";
 
 class Whymedicine extends Component {
   render() {
@@ -113,6 +114,7 @@ class Whymedicine extends Component {
             </div>
           </div>
         </div>
+        <Map />
       </div>
     );
   }

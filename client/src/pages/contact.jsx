@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Header from "../components/header";
 import Footer from "../components/footer";
-import Whychoose from "../components/whychoose";
+import ContactQr from "../components/contactqr";
 
 class Contact extends Component {
   render() {
@@ -14,7 +14,7 @@ class Contact extends Component {
             <h1>CONTACT US</h1>
           </div>
         </div>
-        <Whychoose />
+        <ContactQr />
         <Footer />
       </div>
     );
