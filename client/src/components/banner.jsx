@@ -7,7 +7,7 @@ class Banner extends Component {
   render() {
     const images = [
       {
-        url: "./herb1.png",
+        url: "./herb.webp",
         caption1: "",
         caption2: "OPTIMAL HEALTH",
         caption3:
@@ -43,7 +43,7 @@ class Banner extends Component {
             >
               <div
                 className="each-slide-child"
-                style={{ backgroundColor: "rgb(33 29 29 / 70%)" }}
+                style={{ backgroundColor: "rgb(33 29 29 / 50%)" }}
               >
                 <div className="Slidetop">{slideImage.caption1}</div>
                 <div className="Slidetitle">{slideImage.caption2}</div>
